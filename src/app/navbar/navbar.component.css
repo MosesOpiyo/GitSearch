@@ -4,6 +4,10 @@
     background-color: aqua;
 }
 
+img {
+    width: 50px;
+}
+
 h1 {
     margin-left: 40px
 }
