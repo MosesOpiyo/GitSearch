@@ -10,7 +10,9 @@ h2 {
 }
 
 body {
-    background-color: rgb(55, 173, 252);
+    background-image: url("https://github.com/MosesOpiyo/GitSearch/blob/master/images/bb.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
 }
 
 input {
