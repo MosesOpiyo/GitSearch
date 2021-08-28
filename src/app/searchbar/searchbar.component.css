@@ -4,27 +4,32 @@
 }
 
 h2 {
-    margin-top: 35%;
+    margin-top: 25%;
     margin-left: 64%;
+    color: black;
 }
 
 input {
     width: 65%;
     height: 50px;
-    margin-top: -10%;
+    margin-top: -40%;
     margin-left: 63%;
-    border: 2px solid grey;
+    border: 2px solid black;
     border-radius: 60px;
-    background-color: white;
+    background-color: transparent;
 }
 
 button {
     width: 60px;
     height: 48px;
-    margin-left: 17.5%;
-    margin-top: 44.5%;
+    margin-left: 16.5%;
+    margin-top: 34.5%;
     border: none;
     background-color: transparent;
     font-size: 20px;
     color: black;
+}
+
+p {
+    margin-left: 20%;
 }
