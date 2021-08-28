@@ -6,12 +6,12 @@
 h2 {
     margin-top: 20%;
     margin-left: 64%;
-    color: black;
+    color: white;
 }
 
 body {
-    background-image: url("https://github.com/MosesOpiyo/GitSearch/blob/master/images/bb.jpg?raw=true");
-    background-position: center;
+    background-image: url("https://github.com/MosesOpiyo/GitSearch/blob/master/images/images.jpeg?raw=true");
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ input {
     height: 50px;
     margin-top: -37%;
     margin-left: 65%;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 20px;
     background-color: transparent;
 }
@@ -44,4 +44,5 @@ img {
 p {
     margin-left: 64%;
     margin-top: -30%;
+    color: white;
 }
