@@ -4,18 +4,22 @@
 }
 
 h2 {
-    margin-top: 25%;
+    margin-top: 20%;
     margin-left: 64%;
     color: black;
+}
+
+body {
+    background-color: rgb(55, 173, 252);
 }
 
 input {
     width: 65%;
     height: 50px;
-    margin-top: -40%;
-    margin-left: 63%;
+    margin-top: -37%;
+    margin-left: 65%;
     border: 2px solid black;
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: transparent;
 }
 
@@ -23,7 +27,7 @@ button {
     width: 60px;
     height: 48px;
     margin-left: 16.5%;
-    margin-top: 34.5%;
+    margin-top: 29.8%;
     border: none;
     background-color: transparent;
     font-size: 20px;
@@ -31,5 +35,6 @@ button {
 }
 
 p {
-    margin-left: 20%;
+    margin-left: 64%;
+    margin-top: -30%;
 }
