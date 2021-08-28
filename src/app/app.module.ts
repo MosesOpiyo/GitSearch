@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchService } from './search-service/search.service';
 import { SearchbarComponent } from './searchbar/searchbar.component';
+import { MainContentComponent } from './main-content/main-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
