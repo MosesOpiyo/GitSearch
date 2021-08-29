@@ -1,17 +1,19 @@
 .row {
     width: 100%;
-    background-color: transparent;
+    background-color: rgb(4, 0, 255);
 }
 
 img {
     margin-top: 20px;
     margin-left: 20px;
     width: 80px;
+    border-radius: 50px;
 }
 
 h1 {
     margin-top: 27px;
     margin-right: 50%;
+    color: white;
 }
 
 ul {
@@ -24,12 +26,18 @@ li {
     padding: 30px;
 }
 
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
 button {
     margin-left: 60%;
     margin-top: 55px;
-    background-color: blue;
+    background-color: transparent;
     color: white;
     border-radius: 40px;
     width: 120px;
-    border: 2px solid blue;
+    border: 2px solid white;
 }
