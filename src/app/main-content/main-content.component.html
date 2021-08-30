@@ -1,24 +1,42 @@
-<div class="row">
-    <div class="col">
-        <div class="pic">
-            <h1>pic</h1>
-        </div>
-        <h1>name</h1>
-    </div>
+<app-searchbar (submitted)='getUser($event)'></app-searchbar>
 
-    <div class="col">
-        <div class="container">
-            <h2>repos</h2>
-            <h2>followers</h2>
-            <h2>following</h2>
-
-        </div>
-    </div>
-</div>
-<div class="repos">
+<body *ngIf='showInfo'>
     <div class="row">
-        <h3>repo-name</h3>
-        <p>repo-details</p>
+        <div class="col">
+            <div class="pic">
+                <img src="{{userProfile.avatar}}">
+            </div>
+            <h1>{{userProfile.userName}}</h1>
+
+        </div>
+
+        <div class="col">
+            <div class="container">
+                <hr>
+                <h3>repositories</h3>
+                <p>repo-details</p>
+                <hr>
+
+            </div>
+        </div>
     </div>
-    <hr>
-</div>
+    <div class="repos">
+        <div class="col">
+            <div class="row-2">
+                <div class="col">
+                    <h4>{{userProfile.followers}}</h4>
+                    <h2>followers</h2>
+                </div>
+                <div class="col">
+                    <h4>{{userProfile.following}}</h4>
+                    <h2>following</h2>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <hr>
+    </div>
+</body>

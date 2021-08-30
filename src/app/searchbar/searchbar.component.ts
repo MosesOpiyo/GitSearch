@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter,Output } from '@angular/core';
+import { User } from '../user';
 
 @Component({
   selector: 'app-searchbar',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchbarComponent implements OnInit {
 
-  public githubUser!: string;
+  user = new User("","",0,0,0,"")
+   
+  @Output() submitted = new EventEmitter<User>();
+  searchUser(){
+    this.submitted.emit(this.user)
+  }
   constructor() { }
 
   ngOnInit(): void {

@@ -1,18 +1,29 @@
-.pic {
+img {
     background-color: black;
-    width: 40%;
+    width: 30%;
     height: 30vh;
-    margin-top: 15%;
+    margin-top: 7%;
     margin-left: 15%;
     border-radius: 500px;
+    border: 2px solid black;
+}
+
+h1 {
+    margin-bottom: 10%;
+    margin-left: 70%;
 }
 
 .container {
     margin-top: 20%;
 }
 
+.col {
+    width: 40px;
+}
+
 h2 {
     padding-bottom: 40px;
+    padding-left: -20%;
 }
 
 h1 {
@@ -20,8 +31,19 @@ h1 {
     margin-left: 20%;
 }
 
+.row-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin-left: 30px;
+}
+
 h3 {
     margin-left: 5%;
+}
+
+h4 {
+    margin-left: 15%;
 }
 
 p {
