@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchService } from './search-service/search.service';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { MainContentComponent } from './main-content/main-content.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MainContentComponent } from './main-content/main-content.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [SearchService],
