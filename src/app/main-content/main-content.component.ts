@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../user';
 
 @Component({
   selector: 'app-main-content',
@@ -11,5 +12,7 @@ export class MainContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  userProfile = new User("","",0,0,0,"")
+  userDetails: any
 
 }

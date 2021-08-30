@@ -1,0 +1,29 @@
+.pic {
+    background-color: black;
+    width: 40%;
+    height: 30vh;
+    margin-top: 15%;
+    margin-left: 15%;
+    border-radius: 500px;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+h2 {
+    padding-bottom: 40px;
+}
+
+h1 {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+h3 {
+    margin-left: 5%;
+}
+
+p {
+    margin-left: 5%;
+}
