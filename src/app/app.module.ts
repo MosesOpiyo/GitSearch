@@ -9,13 +9,15 @@ import { SearchService } from './search-service/search.service';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FormsModule } from '@angular/forms';
+import { GhReposComponent } from './gh-repos/gh-repos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SearchbarComponent,
-    MainContentComponent
+    MainContentComponent,
+    GhReposComponent
   ],
   imports: [
     BrowserModule,

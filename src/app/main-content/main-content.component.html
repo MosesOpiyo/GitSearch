@@ -12,31 +12,25 @@
 
         <div class="col">
             <div class="container">
-                <hr>
-                <h3>repositories</h3>
-                <p>repo-details</p>
-                <hr>
+                <div class="row-2">
+                    <div class="col">
+                        <div class="box">
+                            <h2>{{userProfile.followers}} followers</h2>
+                        </div>
 
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h2>{{userProfile.following}} following</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr>
+                <app-gh-repos [ghRepos]="ghRepos"></app-gh-repos>
             </div>
         </div>
     </div>
-    <div class="repos">
-        <div class="col">
-            <div class="row-2">
-                <div class="col">
-                    <h4>{{userProfile.followers}}</h4>
-                    <h2>followers</h2>
-                </div>
-                <div class="col">
-                    <h4>{{userProfile.following}}</h4>
-                    <h2>following</h2>
-                </div>
-            </div>
 
-
-
-
-        </div>
-        <hr>
-    </div>
 </body>

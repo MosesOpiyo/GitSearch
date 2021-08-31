@@ -16,6 +16,7 @@ export class MainContentComponent implements OnInit {
   userProfile = new User("","",0,0,0,"")
   userDetails: any
   showInfo:boolean = false;
+  ghRepos: any[]
 
   getUser(info) {
     this.showInfo = true;
@@ -27,6 +28,7 @@ export class MainContentComponent implements OnInit {
     })
 
   }
+  
 
   
 

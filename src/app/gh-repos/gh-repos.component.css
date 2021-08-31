@@ -1,0 +1,15 @@
+.card {
+    height: 120px;
+}
+
+.list-group-items {
+    justify-content: space-between;
+}
+
+.list-group-items h3 p {
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+}
