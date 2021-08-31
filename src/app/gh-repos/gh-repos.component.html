@@ -1,8 +1,8 @@
 <h2>Repositories</h2>
 <div class="card">
     <ul class="list-group">
-        <li class="list-group-items">
-            <h3 class="primary-text">name</h3>
+        <li *ngFor="let repo of ghRepos" class="list-group-items">
+            <h3 class="primary-text">{{repo.name}}</h3>
             <p>description</p>
             <div class="row">
                 <div class="col">
@@ -10,7 +10,7 @@
                 </div>
                 <div class="col">updates</div>
             </div>
-            <p>stars</p>
+            <p>{{repo.stargazer_count}}stars</p>
 
         </li>
 
