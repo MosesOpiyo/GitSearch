@@ -8,4 +8,6 @@ export class User {
         this.showFollowing = false;
         this.showFollowers = false;
     }
+    
+
 }

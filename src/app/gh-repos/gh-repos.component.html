@@ -1,16 +1,16 @@
 <h2>Repositories</h2>
-<div class="card">
+<div *ngFor='let repo of ghRepos' class="card">
     <ul class="list-group">
-        <li *ngFor="let repo of ghRepos" class="list-group-items">
-            <h3 class="primary-text">{{repo.name}}</h3>
-            <p>description</p>
+        <li class="list-group-items">
+            <h3 class="primary-text">{{repo.repoName}}</h3>
+            <p>{{repo.repodescription}}</p>
             <div class="row">
                 <div class="col">
-                    <p>langauge used</p>
+                    <p>{{repo.repolanguage}}</p>
                 </div>
                 <div class="col">updates</div>
             </div>
-            <p>{{repo.stargazer_count}}stars</p>
+            <p>{{repo.repoStars}}</p>
 
         </li>
 
