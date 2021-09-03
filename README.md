@@ -1,3 +1,4 @@
+<img src="https://github.com/MosesOpiyo/GitSearch/blob/master/images/Screenshot%20from%202021-09-03%2009-35-35.png?raw=true">
 # Gitsearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
