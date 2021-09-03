@@ -29,6 +29,8 @@ export class MainContentComponent implements OnInit {
       this.userProfile.userName = this.userDetails.login
       this.userProfile.avatar = this.userDetails.avatar_url
       this.userProfile.bio = this.userDetails.bio
+      this.userProfile.followers = this.userDetails.followers
+      this.userProfile.following = this.userDetails.following
       
     })
 
